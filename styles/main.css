@@ -1,0 +1,58 @@
+@import "flipcard.css";
+
+.title {
+  
+    text-align: center;
+    font-size: 200px;
+}
+
+.body {
+    background-image: url("https://content.fortune.com/wp-content/uploads/2019/04/donald-reisinger.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-self: auto; */
+    /* align-content: center; */
+  
+   
+    
+  
+}
+
+/* .joke {
+    max-width: 300px;
+} */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 25%;
+    background-image: url("https://content.fortune.com/wp-content/uploads/2019/04/donald-reisinger.jpg");
+    background-size: cover;
+ }
+
+ .jokeTitle {
+     text-align: center;
+     padding: 8px;
+ }
+
+ .jokeQuestion{
+     text-align: center;
+     padding: 8px
+    
+
+ }
+
+ .jokeAnswer {
+    text-align: center;
+ }
